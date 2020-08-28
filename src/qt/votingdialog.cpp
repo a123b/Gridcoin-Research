@@ -695,7 +695,7 @@ VotingChartDialog::VotingChartDialog(QWidget *parent)
     answerTable_ = new QTableWidget(this);
     answerTable_->setColumnCount(3);
     answerTable_->setRowCount(0);
-    answerTableHeader<<"Answer"<<"Shares"<<"Percentage";
+    answerTableHeader<<"Answer"<<"Shares"<<"%";
     answerTable_->setHorizontalHeaderLabels(answerTableHeader);
     answerTable_->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
     answerTable_->setEditTriggers( QAbstractItemView::NoEditTriggers );
